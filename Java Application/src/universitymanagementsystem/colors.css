@@ -1,0 +1,18 @@
+
+
+.table-view .table-column{
+    -fx-alignment: CENTER;
+}
+.table-view .column-header-background {
+    -fx-background-color: #074040; /* Specify your desired header color */
+    -fx-background-radius: 8px 8px 0px 0px;
+    -fx-background-inset: 0 0 0 0;
+}
+.table-view .column-header, .filter{
+    -fx-background-color:transparent;
+    -fx-size:40px;
+}
+.table-view .column-header .label{
+    -fx-text-fill:#F2E641;
+    -fx-font-family:"Arial";
+}
